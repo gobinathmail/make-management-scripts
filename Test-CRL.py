@@ -53,7 +53,7 @@ def process_excel(excel_file, output_file_path):
     workbook.save(output_file_path)
 
 # Example usage
-excel_file_path = r'c:\script\rmg\CP-Ren-UL.xlsx'
-output_file_path = r"C:\Office\OneDrive - ATOS\Desktop\123_Prolinks.xlsx"
+excel_file_path = r'c:\script\CP-Ren-UL.xlsx'
+output_file_path = r"C:\Office\OneDrive\Desktop\123_Prolinks.xlsx"
 
 process_excel(excel_file_path, output_file_path)
